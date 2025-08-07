@@ -1,0 +1,122 @@
+/* Estilo Hacker Otimizado */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: #000;
+    color: #00ff00;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #00ff00;
+    padding-bottom: 10px;
+}
+
+header h2 {
+    font-size: 2rem;
+    color: #00ff00;
+}
+
+header label {
+    font-size: 1rem;
+    color: #0f0;
+}
+
+/* Navegação */
+nav {
+    margin-bottom: 20px;
+}
+
+nav h3 {
+    color: #0f0;
+    margin-bottom: 10px;
+}
+
+nav a {
+    color: #00ff00;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #000;
+    background-color: #00ff00;
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+
+/* Feed RSS */
+#feed-rss {
+    border: 1px solid #00ff00;
+    padding: 20px;
+    background-color: #020;
+}
+
+.rss-item {
+    margin-bottom: 30px;
+    border-bottom: 1px dashed #00ff00;
+    padding-bottom: 15px;
+}
+
+.rss-item-title {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.rss-item-link {
+    color: #00ff00;
+    text-decoration: none;
+}
+
+.rss-item-link:hover {
+    color: #fff;
+}
+
+.rss-item-image {
+    max-width: 100%;
+    border: 1px solid #00ff00;
+    margin-bottom: 10px;
+}
+
+.rss-item-desc {
+    font-size: 0.9rem;
+    color: #0f0;
+}
+
+/* Input e Botão */
+input[type="text"],
+button {
+    background-color: #000;
+    color: #00ff00;
+    border: 1px solid #00ff00;
+    padding: 10px;
+    font-size: 1rem;
+    margin: 5px 0;
+    outline: none;
+}
+
+input[type="text"]:focus,
+button:hover {
+    background-color: #00ff00;
+    color: #000;
+    border-color: #fff;
+    cursor: pointer;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    border-top: 1px solid #00ff00;
+    padding-top: 10px;
+    font-size: 0.8rem;
+    color: #0f0;
+}
